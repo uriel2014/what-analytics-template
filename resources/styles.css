@@ -1,0 +1,18 @@
+/* For additional styling needed */
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+   .row.content {height: 550px;}
+
+   @media screen and (max-width: 767px) {
+         .row.content {height: auto;}
+       }
+
+.sidenav {
+      background-color: pink;
+      height: 100%;
+    }
+
+.well{
+  color: white;
+  background-color: blue;
+}

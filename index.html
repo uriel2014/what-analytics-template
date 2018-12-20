@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Template</title>
+    <!--Icon for the webpage-->
+    <link rel="icon" href="/css/master.css" type="image/x-icon">
+    <!--Stylesheets we needed to reference -->
+    <link rel="stylesheet" href="./resources/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/styles.css" type="text/css">
+  </head>
+  <body>
+
+    <!--NAVIGATION BAR -->
+    <nav class="navber navbar-inverse visible-xs">
+      <!--Visible-xs is used to show or hide for xs device -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Dashboard</a></li>
+            <li><a href="#">Age</a></li>
+            <li><a href="#">Gender</a></li>
+            <li><a href="#">Geo</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--CONTAINER-->
+
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="col-sm-3 sidenav hidden-xs">
+          <!--Creates a side navigation bar with class .sidenav, hidden-xs is to keep
+          it hidden on extra small screens. Meaning on extra small screens  the sidenav
+          will remain hidden and will only be a regular navigtion bar on the top. -->
+          <h2>Logo</h2>
+          <ul class="nav nav-pills nav-stacked">
+            <!-- unordered list outside of the navbar use either nav-tabs or nav-pills.
+            Here we use nav-pills to list the unordered list menu and nav-stacked is used to keep
+            them in vertical alignment. -->
+            <li class="active"><a href="#section1">Dashboard</a></li>
+            <li><a href="#section2">Age</a></li>
+            <li><a href="#section3">Gender</a></li>
+            <li><a href="#section3">Geo</a></li>
+          </ul>
+        </div>
+        <br>
+
+        <!-- All other consecutive rows will fall under column space of 9-->
+
+     <div class="col-sm-9">
+          <div class="well">
+            <h4>Dashboard</h4>
+            <p>Here is some text for the Dashboard.....</p>
+          </div>
+
+      <div class="row">
+
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Users</h4>
+            <p>4 Million</p>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Pages</h4>
+            <p>600 Million</p>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Sessions</h4>
+            <p>80 Million</p>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Bounce</h4>
+            <p>30%</p>
+          </div>
+        </div>
+<!-- End of the row -->
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p>
+            <p>Text</p>
+            <p>Text</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p>
+            <p>Text</p>
+            <p>Text</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p>
+            <p>Text</p>
+            <p>Text</p>
+          </div>
+        </div>
+  <!--End of the row-->
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8">
+          <div class="well">
+            <p>Text</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p>
+          </div>
+        </div>
+<!-- End of the row-->
+      </div>
+
+    </div>
+    <!-- ENd of the 9 column space with the rows -->
+
+  </div>
+  <!-- End of the container -->
+
+
+
+    <!--Scripts to use-->
+    <!--Main Jquery Script -->
+     <script src="https://code.jquery.com/jquery-3.3.1.js"
+         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+         crossorigin="anonymous"></script>
+         <!-- Bootstrap scripts for jquery and Javascript -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
